@@ -5,7 +5,7 @@ jobs:
   docker-ros:
     runs-on: ubuntu-latest
     steps:
-      - uses: ika-rwth-aachen/docker-ros@v1.3.1
+      - uses: RphvK/docker-ros@image-name
         with:
           base-image: rwthika/ros2:humble
           command: ros2 launch spinnaker_camera_driver driver_node.launch.py
